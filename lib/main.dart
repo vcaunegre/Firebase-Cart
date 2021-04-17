@@ -148,7 +148,6 @@ class _MyHomePageState extends State<MyHomePage> {
                               CartModel c;
                               if (cartModels.isNotEmpty) {
                                 for (int i = 0; i < cartModels.length; i++) {
-                                  print("mdrrrr");
                                   if (cartModels[i].name ==
                                       drinkModels[index].name) {
                                     c = cartModels[i];

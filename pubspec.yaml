@@ -36,7 +36,6 @@ dependencies:
   confirm_dialog: any
   flutter_elegant_number_button: any
 
-  
 
 dev_dependencies:
   flutter_test:
