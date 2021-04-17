@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:badges/badges.dart';
 import 'package:confirm_dialog/confirm_dialog.dart';
+import 'package:firebase_cart/firebase/screens/my_drawer.dart';
 import 'package:firebase_cart/model/cart_model.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
@@ -197,6 +198,7 @@ class _MyHomePageState extends State<MyHomePage> {
           )
         ],
       ),
+      drawer: myDrawer(),
     );
   }
 }
