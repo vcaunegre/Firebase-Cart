@@ -20,7 +20,7 @@ class _CardDetailState extends State<CardDetail> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Center(child: Text('Firebase Cart'))),
+      appBar: AppBar(title: Center(child: Text('Firebase Cart Example'))),
       body: StreamBuilder(
         stream: FirebaseDatabase.instance.reference().child('/Cart').onValue,
         builder: (BuildContext context, AsyncSnapshot<Event> snapshot) {
