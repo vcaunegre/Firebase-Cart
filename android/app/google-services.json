@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "408472694812",
+    "firebase_url": "https://fluttercart-d6fbf-default-rtdb.firebaseio.com",
+    "project_id": "fluttercart-d6fbf",
+    "storage_bucket": "fluttercart-d6fbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408472694812:android:c0a8a5d7ef328fb8922fd9",
+        "android_client_info": {
+          "package_name": "com.example.firebase_cart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408472694812-09ue71arpcnfpef99ml790p9uq5co1ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-OqVYd52nbzZtOpbmFvcbHLB8LNWE0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408472694812-09ue71arpcnfpef99ml790p9uq5co1ep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
