@@ -7,8 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_cart/firebase/firebase_action.dart';
 import 'package:flutter_elegant_number_button/flutter_elegant_number_button.dart';
 
-import '../firebase_action.dart';
-
 class CardDetail extends StatefulWidget {
   @override
   _CardDetailState createState() => _CardDetailState();

@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:badges/badges.dart';
 import 'package:confirm_dialog/confirm_dialog.dart';
-import 'package:firebase_cart/firebase/screens/my_drawer.dart';
 import 'package:firebase_cart/model/cart_model.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
@@ -11,8 +10,9 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:page_transition/page_transition.dart';
 
 import 'firebase/firebase_action.dart';
-import 'firebase/screens/cart_detail_screen.dart';
 import 'model/drink_model.dart';
+import 'screens/cart_detail_screen.dart';
+import 'screens/my_drawer.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
